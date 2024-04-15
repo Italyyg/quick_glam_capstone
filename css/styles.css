@@ -1,3 +1,8 @@
 body{
     background-color: #ff99ff;
 }
+  /* this is to change the color of the search button in nav */
+.custom-outline-success {
+            border-color: #9E0639 ;
+            color: #000000; 
+        }
