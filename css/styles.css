@@ -20,12 +20,15 @@ body {
 
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: large;
 
 }
 
 #subtitle {
     background-color: #f462f4;
     font-family: "Lobster", sans-serif;
+    text-align: center;
 }
 
 #about {
@@ -38,9 +41,30 @@ body {
 #aboutitle {
     background-color: #f462f4;
     font-family: "Lobster", sans-serif;
+    text-align: center;
 }
 
 #about img {
     width: 180px;
-    height:150px;
+    height: 150px;
+}
+
+.modal-content {
+    background-color: #f7cdf7;
+}
+
+#subscription ul {
+    text-align: left;
+}
+
+#addtocarthp {
+    text-align: left;
+}
+
+#moni {
+    text-align: left;
+}
+#subscription img{
+    width:400px;
+    margin-top: 3%;
 }
