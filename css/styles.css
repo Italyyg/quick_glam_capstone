@@ -76,3 +76,13 @@ body {
     height: 25vw;
     object-fit: cover;
 }
+.bttmpage{
+    margin-top: 40px;
+}
+.pagination > li > a:hover{
+    color: #f462f4;
+
+}
+.pagination a{
+    color:#000000;
+}
