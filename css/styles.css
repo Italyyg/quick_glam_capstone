@@ -68,3 +68,11 @@ body {
     width:400px;
     margin-top: 3%;
 }
+.card{
+    background-color: #f1bef1;
+}
+.card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
