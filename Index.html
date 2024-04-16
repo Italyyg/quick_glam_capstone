@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Lobster&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -58,74 +59,119 @@
         </nav>
     </header>
     <div id="hero"></div>
-
-    <section id="about">
-        <h2 id="aboutitle">About Quick Glam</h2>
-        <img src="images/francelittle.jpg" alt="little girl with nails" style="float:left; margin-right:10px;">
-        <p>We are a press on nail company founded by France Mendoza in 2018. France was always in love with coloring her
-            nails as a little girl, she would go to the dollar store and buy
-            plain glue on nails and would decorate them. Growing up she saw that press on nails didnt have a variety of
-            selection and it would force someone to go to the nail salon.
-            Her and our goal is to make it easier for everyone to have a set of fresh nails in a matter of seconds. We
-            know the nail salon can be expensive and time consuming. Sometimes you get tired of the same
-            set you have on, and are looking for a new fresh pair but dont want to go back to the salon, or maybe your
-            nails
-            dont match your outfit. We provide a solution with our variety of styles and lenghts to choose from!
-        </p>
-    </section>
-
-    <section id="subscription">
-        <img src="images/subscriptionnails.jpg" alt="subscription nails in a box"
-            style="float:right; margin-right:10px;">
-        <h2 id="subtitle">Join our monthly subscription!</h2>
-        <p> Explore new styles with our new monthly subscription! Easy-to-apply and long lasting. Every month you
-            recieve 5 pairs of acrylic nails for only
-            $35 a month! We dont just give you any nails, we have you choose your prefrences and we match the nails to
-            your style. You will never get the same nails twice, you can choose any lenght in your kit. The monthly box
-            includes: </p>
-        <ul>
-            <li>5 Pairs of Acrylics </li>
-            <li>3 Nail Files</li>
-            <li>5 Alcohol Wipes</li>
-            <li>5 Cuticle Pushers</li>
-
-        </ul>
-        <p id="moni">$34.99</p>
-
-    </section>
-    <section id="addtocarthp">
-        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Add to Cart
-        </button>
-
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Added to Cart!</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        Succesfully added to your cart!
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue
-                            shopping</button>
-                        <a href="checkout.html">
-                            <button type="button" class="btn btn-danger">Go to Cart</button>
-                        </a>
+    <!-- new product cards -->
+    <div>
+        <h3>Shop our latest!</h3>
+    </div>
+    <div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-60 ">
+                    <img src="images/crossnails.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
                     </div>
                 </div>
             </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="images/rockballerina.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="images/emonails.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
+        <section id="about">
+            <h2 id="aboutitle">About Quick Glam</h2>
+            <img src="images/francelittle.jpg" alt="little girl with nails" style="float:left; margin-right:10px;">
+            <p>We are a press on nail company founded by France Mendoza in 2018. France was always in love with coloring
+                her
+                nails as a little girl, she would go to the dollar store and buy
+                plain glue on nails and would decorate them. Growing up she saw that press on nails didnt have a variety
+                of
+                selection and it would force someone to go to the nail salon.
+                Her and our goal is to make it easier for everyone to have a set of fresh nails in a matter of seconds.
+                We
+                know the nail salon can be expensive and time consuming. Sometimes you get tired of the same
+                set you have on, and are looking for a new fresh pair but dont want to go back to the salon, or maybe
+                your
+                nails
+                dont match your outfit. We provide a solution with our variety of styles and lenghts to choose from!
+            </p>
+        </section>
 
-    </section>
+        <section id="subscription">
+            <img src="images/subscriptionnails.jpg" alt="subscription nails in a box"
+                style="float:right; margin-right:10px;">
+            <h2 id="subtitle">Join our monthly subscription!</h2>
+            <p> Explore new styles with our new monthly subscription! Easy-to-apply and long lasting. Every month you
+                recieve 5 pairs of acrylic nails for only
+                $35 a month! We dont just give you any nails, we have you choose your prefrences and we match the nails
+                to
+                your style. You will never get the same nails twice, you can choose any lenght in your kit. The monthly
+                box
+                includes: </p>
+            <ul>
+                <li>5 Pairs of Acrylics </li>
+                <li>3 Nail Files</li>
+                <li>5 Alcohol Wipes</li>
+                <li>5 Cuticle Pushers</li>
 
-    <!-- Including bootstrap javascript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+            </ul>
+            <p id="moni">$34.99</p>
+
+        </section>
+        <section id="addtocarthp">
+            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Add to Cart
+            </button>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Added to Cart!</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Succesfully added to your cart!
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue
+                                shopping</button>
+                            <a href="checkout.html">
+                                <button type="button" class="btn btn-danger">Go to Cart</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <!-- Including bootstrap javascript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>

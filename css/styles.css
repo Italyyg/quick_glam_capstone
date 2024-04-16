@@ -12,7 +12,7 @@ body {
     height: 440px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("https://lexinailspa.net/wp-content/uploads/2019/10/pink-white.jpg");
+    background-image: url("../images/headernail.jpg");
     background-attachment: fixed;
 }
 
@@ -27,7 +27,7 @@ body {
 
 #subtitle {
     background-color: #f462f4;
-    font-family: "Lobster", sans-serif;
+    font-family: "DM Serif Display", serif;
     text-align: center;
 }
 
@@ -40,7 +40,7 @@ body {
 
 #aboutitle {
     background-color: #f462f4;
-    font-family: "Lobster", sans-serif;
+    font-family: "DM Serif Display", serif;
     text-align: center;
 }
 
@@ -64,45 +64,54 @@ body {
 #moni {
     text-align: left;
 }
-#subscription img{
-    width:400px;
+
+#subscription img {
+    width: 400px;
     margin-top: 3%;
 }
-.card{
+
+.card {
     background-color: #f1bef1;
 }
+
 .card-img-top {
     width: 100%;
     height: 25vw;
     object-fit: cover;
 }
-.bttmpage{
+
+.bttmpage {
     margin-top: 40px;
 }
-.pagination > li > a:hover{
+
+.pagination>li>a:hover {
     color: #f462f4;
 
 }
-.pagination a{
-    color:#000000;
+
+.pagination a {
+    color: #000000;
 }
-#fakenav{
+
+#fakenav {
     margin-top: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: underline;
     margin-left: 10px;
-    
+
 }
 
-#fakenav a{
+#fakenav a {
     color: #000000;
-    
+
 }
-#fakenav a:hover{
+
+#fakenav a:hover {
     color: #9E0639;
 }
-#shopnails img{
+
+#shopnails img {
     margin-left: 43%;
     margin-top: 10px;
-    width:200px;
+    width: 200px;
 }
