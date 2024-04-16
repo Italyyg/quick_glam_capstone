@@ -9,17 +9,38 @@ body {
 }
 
 #hero {
-    height:440px;
-    background-size:cover ;
+    height: 440px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url("https://lexinailspa.net/wp-content/uploads/2019/10/pink-white.jpg");
     background-attachment: fixed;
-   }
-   #subscription{
-    font-family: "Lobster", sans-serif;
+}
+
+#subscription {
+
     color: black;
-   }
-  #about{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#subtitle {
+    background-color: #f462f4;
     font-family: "Lobster", sans-serif;
+}
+
+#about {
+
     color: black;
-  }
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+#aboutitle {
+    background-color: #f462f4;
+    font-family: "Lobster", sans-serif;
+}
+
+#about img {
+    width: 180px;
+    height:150px;
+}
