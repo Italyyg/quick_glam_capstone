@@ -86,3 +86,23 @@ body {
 .pagination a{
     color:#000000;
 }
+#fakenav{
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    margin-left: 10px;
+    
+}
+
+#fakenav a{
+    color: #000000;
+    
+}
+#fakenav a:hover{
+    color: #9E0639;
+}
+#shopnails img{
+    margin-left: 43%;
+    margin-top: 10px;
+    width:200px;
+}
