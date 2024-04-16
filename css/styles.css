@@ -12,8 +12,14 @@ body {
     height:440px;
     background-size:cover ;
     background-repeat: no-repeat;
-    background-image: url("../images/nailbanner.jpg");
+    background-image: url("https://lexinailspa.net/wp-content/uploads/2019/10/pink-white.jpg");
     background-attachment: fixed;
-  
+   }
+   #subscription{
+    font-family: "Lobster", sans-serif;
+    color: black;
+   }
+  #about{
+    font-family: "Lobster", sans-serif;
+    color: black;
   }
-  
