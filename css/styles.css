@@ -22,13 +22,13 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: left;
     font-size: large;
-    margin-top:50px ;
+    margin-top: 50px;
 
 }
 
 #subtitle {
     font-family: "DM Serif Display", serif;
-    text-align:left;
+    text-align: left;
 }
 
 #about {
@@ -36,7 +36,7 @@ body {
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
-    margin-top:60px;
+    margin-top: 60px;
 }
 
 #aboutitle {
@@ -115,39 +115,58 @@ body {
     margin-top: 10px;
     width: 200px;
 }
-#shopallbutton{
+
+#shopallbutton {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
-    
+
 }
-#shopallbutton a:hover{
-    color:white;
+
+#shopallbutton a:hover {
+    color: white;
     font-size: small;
-    
+
 }
-#shopallbutton a{
+
+#shopallbutton a {
     color: #000000;
     text-decoration: none;
 }
-#shoplatest{
+
+#shoplatest {
     font-family: "DM Serif Display", serif;
     text-align: center;
-    margin:10px 10px ;
+    margin: 10px 10px;
 }
-#emailinput{
-    margin-top:50px;
-    text-align:center;
-    font-family:"DM Serif Display", serif;
+
+#emailinput {
+    margin-top: 50px;
+    text-align: center;
+    font-family: "DM Serif Display", serif;
 }
-#basic-addon2{
+
+#basic-addon2 {
     margin-right: 300px;
 }
-#rr{
-    margin-left:300px;
+
+#rr {
+    margin-left: 300px;
 }
+
 #insertemail {
-   width: 50%;
-   margin: 0 auto;
-   
+    width: 50%;
+    margin: 0 auto;
+
 }
+
+.box {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 600px;
+    padding: 20px;
+    background: #ff7cb0;
+    border: 2px solid #333;
+    position: relative;
+}
+

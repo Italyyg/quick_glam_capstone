@@ -53,41 +53,65 @@
       </div>
     </nav>
   </header>
+  <!-- seperates for backgroundimage -->
+  <div id="fullbodynails">
 
-  <!-- welcome -->
-  <h3>Welcome to the club!</h3>
-  <p>By signing up as a glamzilla you get offers and sales before anyone else....shhh you're special. We also keep all
-    your favorites for you when you sign in and are ready to order.
-  </p>
-  <!-- submition form -->
-  <form class="row g-3">
-    <div class="row g-3">
-      <div class="col">
-        <label for="inputfirstname4" class="form-label">First Name</label>
-        <input type="text" class="form-control" placeholder="John" aria-label="First name">
-      </div>
-      <div class="col">
-        <label for="inpulastname4" class="form-label">Lasr Name</label>
-        <input type="text" class="form-control" placeholder="Doe" aria-label="Last name">
-      </div>
-    </div>
+    <!-- welcome -->
 
-    <div class="col-md-6">
-      <label for="inputEmail4" class="form-label">Email</label>
-      <input type="email" class="form-control" id="inputEmail4" placeholder="johndoe@email.com" aria-label="Email">
+    <!-- submition form -->
+    <div class="box">
+      <h3>Welcome to the club!</h3>
+      <p>By signing up as a glamzilla you get offers and sales before anyone else....shhh you're special. We also keep
+        all
+        your favorites for you when you sign in and are ready to order.
+      </p>
+      <form class="row g-3 needs-validation" validate>
+        <div class="row g-3">
+          <div class="col">
+            <label for="inputfirstname4" class="form-label">First Name</label>
+            <input type="text" class="form-control" placeholder="John" aria-label="First name" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col">
+            <label for="inpulastname4" class="form-label">Lasr Name</label>
+            <input type="text" class="form-control" placeholder="Doe" aria-label="Last name" required>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="johndoe@email.com" aria-label="Email" required>
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword4" required>
+        </div>
+        <div class="col-md-12">
+          <label for="inputPassword4" class="form-label">Password Verification</label>
+          <input type="password" class="form-control" id="inputPassword4" required>
+        </div>
+        <p>How did you hear about us?</p>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+          <label class="form-check-label" for="flexRadioDefault1">
+            Social Media
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+          <label class="form-check-label" for="flexRadioDefault2">
+            Other
+          </label>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+      </form>
     </div>
-    <div class="col-md-6">
-      <label for="inputPassword4" class="form-label">Password</label>
-      <input type="password" class="form-control" id="inputPassword4">
-    </div>
-    <div class="col-md-12">
-      <label for="inputPassword4" class="form-label">Password Verification</label>
-      <input type="password" class="form-control" id="inputPassword4">
-    </div>
-     <div class="col-12">
-      <button type="submit" class="btn btn-primary">Sign in</button>
-    </div>
-  </form>
+  </div>
+
+
 
 
 
