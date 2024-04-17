@@ -20,15 +20,15 @@ body {
 
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
+    text-align: left;
     font-size: large;
+    margin-top:50px ;
 
 }
 
 #subtitle {
-    background-color: #f462f4;
     font-family: "DM Serif Display", serif;
-    text-align: center;
+    text-align:left;
 }
 
 #about {
@@ -36,10 +36,10 @@ body {
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
+    margin-top:60px;
 }
 
 #aboutitle {
-    background-color: #f462f4;
     font-family: "DM Serif Display", serif;
     text-align: center;
 }
@@ -114,4 +114,40 @@ body {
     margin-left: 43%;
     margin-top: 10px;
     width: 200px;
+}
+#shopallbutton{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+#shopallbutton a:hover{
+    color:white;
+    font-size: small;
+    
+}
+#shopallbutton a{
+    color: #000000;
+    text-decoration: none;
+}
+#shoplatest{
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    margin:10px 10px ;
+}
+#emailinput{
+    margin-top:50px;
+    text-align:center;
+    font-family:"DM Serif Display", serif;
+}
+#basic-addon2{
+    margin-right: 300px;
+}
+#rr{
+    margin-left:300px;
+}
+#insertemail {
+   width: 50%;
+   margin: 0 auto;
+   
 }

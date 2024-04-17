@@ -60,63 +60,50 @@
     </header>
     <div id="hero"></div>
     <!-- new product cards -->
-    <div>
+    <div id="shoplatest">
         <h3>Shop our latest!</h3>
     </div>
     <div>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="row row-cols-1 row-cols-sm-3 row-cols-md-3 g-4">
             <div class="col">
                 <div class="card h-60 ">
-                    <img src="images/crossnails.jpg" class="card-img-top" alt="...">
+                    <img src="images/crossnails.jpg" class="card-img-top" alt="White nails with crosses">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
+                        <h5 class="card-title">Silver Cross</h5>
+                        <p class="card-text">These are our square white nails with silver/chrome crosses.</p>
+                        <button type="button" class="btn btn-danger">Add to Cart</button>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card h-60">
-                    <img src="images/rockballerina.jpg" class="card-img-top" alt="...">
+                    <img src="images/rockballerina.jpg" class="card-img-top" alt="pink and black almond nails">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                            content.</p>
+                        <h5 class="card-title">Rocker Ballerina</h5>
+                        <p class="card-text">Our mix between girly and dark mystery.</p>
+                        <button type="button" class="btn btn-danger">Add to Cart</button>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card h-60">
-                    <img src="images/emonails.jpg" class="card-img-top" alt="...">
+                    <img src="images/emonails.jpg" class="card-img-top" alt="dark spiky nails">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                            content.</p>
+                        <h5 class="card-title">Black Butterfly</h5>
+                        <p class="card-text">A butterly set that is finally not in pink or purple!</p>
+                        <button type="button" class="btn btn-danger">Add to Cart</button>
                     </div>
                 </div>
             </div>
+        </div>
+        <!-- shop all button -->
+        <div id="shopallbutton">
+            <button type="button" class="btn btn-danger"><a href="nails.html">VIEW ALL PRODUCTS</a></button>
+            <br>
 
         </div>
 
-        <section id="about">
-            <h2 id="aboutitle">About Quick Glam</h2>
-            <img src="images/francelittle.jpg" alt="little girl with nails" style="float:left; margin-right:10px;">
-            <p>We are a press on nail company founded by France Mendoza in 2018. France was always in love with coloring
-                her
-                nails as a little girl, she would go to the dollar store and buy
-                plain glue on nails and would decorate them. Growing up she saw that press on nails didnt have a variety
-                of
-                selection and it would force someone to go to the nail salon.
-                Her and our goal is to make it easier for everyone to have a set of fresh nails in a matter of seconds.
-                We
-                know the nail salon can be expensive and time consuming. Sometimes you get tired of the same
-                set you have on, and are looking for a new fresh pair but dont want to go back to the salon, or maybe
-                your
-                nails
-                dont match your outfit. We provide a solution with our variety of styles and lenghts to choose from!
-            </p>
-        </section>
-
+        <!-- subscription ad -->
         <section id="subscription">
             <img src="images/subscriptionnails.jpg" alt="subscription nails in a box"
                 style="float:right; margin-right:10px;">
@@ -165,8 +152,43 @@
                 </div>
             </div>
 
+            <!-- about section -->
+            <section id="about">
+                <h2 id="aboutitle">About Quick Glam</h2>
+                <img src="images/francelittle.jpg" alt="little girl with nails" style="float:left; margin-right:10px;">
+                <p>We are a press on nail company founded by France Mendoza in 2018. France was always in love with
+                    coloring
+                    her
+                    nails as a little girl, she would go to the dollar store and buy
+                    plain glue on nails and would decorate them. Growing up she saw that press on nails didnt have a
+                    variety
+                    of
+                    selection and it would force someone to go to the nail salon.
+                    Her and our goal is to make it easier for everyone to have a set of fresh nails in a matter of
+                    seconds.
+                    We
+                    know the nail salon can be expensive and time consuming. Sometimes you get tired of the same
+                    set you have on, and are looking for a new fresh pair but dont want to go back to the salon, or
+                    maybe
+                    your
+                    nails
+                    dont match your outfit. We provide a solution with our variety of styles and lenghts to choose from!
+                </p>
+            </section>
+
+
 
         </section>
+        <!-- get sale notifications! -->
+        <div id="emailinput">
+            <p>Get On the List!</p>
+            <p>Join to get early access to new releases, exclusive offers, discounts and more.</p>
+            <div id="insertemail" class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Recipient's Email" aria-label="Recipient's username" aria-describedby="button-addon2">
+              </div>
+            <button type="button" class="btn btn-outline-danger">SUBMIT</button>
+
+        </div>
 
         <!-- Including bootstrap javascript -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
