@@ -55,7 +55,7 @@
   </header>
   <!-- shipping adress -->
   <div id="shipping" class="row">
-    <div class="col-md-8 mb-4">
+    <div class="col-md-8 mb-4 mt-3 mx-auto">
       <div class="card mb-4">
         <div class="card-header py-3">
           <h5 class="mb-0">Shipping Details</h5>
@@ -63,16 +63,16 @@
         <div  class="card-body">
           <form>
             <!-- 2 column grid layout with text inputs for the first and last names -->
-            <div class="row mb-4">
+            <div class="row mb-4 needs-validation" validate>
               <div class="col">
                 <div data-mdb-input-init class="form-outline">
-                  <input type="text" id="form7Example1" class="form-control" />
+                  <input type="text" id="form7Example1" class="form-control" required/>
                   <label class="form-label" for="form7Example1">First name</label>
                 </div>
               </div>
               <div class="col">
                 <div data-mdb-input-init class="form-outline">
-                  <input type="text" id="form7Example2" class="form-control" />
+                  <input type="text" id="form7Example2" class="form-control" required />
                   <label class="form-label" for="form7Example2">Last name</label>
                 </div>
               </div>
@@ -80,25 +80,25 @@
   
             <!-- Text input -->
             <div data-mdb-input-init class="form-outline mb-4">
-              <input type="text" id="form7Example3" class="form-control" />
+              <input type="text" id="form7Example3" class="form-control" required />
               <label class="form-label" for="form7Example3">Company name</label>
             </div>
   
             <!-- Text input -->
             <div data-mdb-input-init class="form-outline mb-4">
-              <input type="text" id="form7Example4" class="form-control" />
+              <input type="text" id="form7Example4" class="form-control" required/>
               <label class="form-label" for="form7Example4">Address</label>
             </div>
   
             <!-- Email input -->
             <div data-mdb-input-init class="form-outline mb-4">
-              <input type="email" id="form7Example5" class="form-control" />
+              <input type="email" id="form7Example5" class="form-control" required />
               <label class="form-label" for="form7Example5">Email</label>
             </div>
   
             <!-- Number input -->
             <div data-mdb-input-init class="form-outline mb-4">
-              <input type="number" id="form7Example6" class="form-control" />
+              <input type="number" id="form7Example6" class="form-control" required />
               <label class="form-label" for="form7Example6">Phone</label>
             </div>
   
@@ -115,6 +115,9 @@
                 Create an account?
               </label>
             </div>
+            <div class="text-center" class="col-12">
+              <button type="submit" class="btn btn-danger">SAVE & CONTINUE</button>
+            </div>
           </form>
         </div>
       </div>
@@ -130,78 +133,65 @@
               <thead>
                 <tr>
                   <th scope="col" class="h5">Shopping Bag</th>
-                  <th scope="col">Format</th>
+                  <th scrope="col">Description</th>
                   <th scope="col">Quantity</th>
                   <th scope="col">Price</th>
+                  
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <th scope="row">
                     <div class="d-flex align-items-center">
-                      <img src="https://i.imgur.com/2DsA49b.webp" class="img-fluid rounded-3"
-                        style="width: 120px;" alt="Book">
-                      <div class="flex-column ms-4">
-                        <p class="mb-2">Thinking, Fast and Slow</p>
-                        <p class="mb-0">Daniel Kahneman</p>
-                      </div>
+                      <img src="/images/pearlnails.jpg" class="img-fluid rounded-3"
+                        style="width: 120px;" alt="nails">
                     </div>
                   </th>
                   <td class="align-middle">
-                    <p class="mb-0" style="font-weight: 500;">Digital</p>
+                    <p class="mb-0" style="font-weight: 500;">Milky nails</p>
+                    <p class="mb-0" style="font-weight: 300;">Pearly white nails with chrome accents</p>
                   </td>
                   <td class="align-middle">
-                    <div class="d-flex flex-row">
-                      <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
-                        onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
-                        <i class="fas fa-minus"></i>
-                      </button>
-  
-                      <input id="form1" min="0" name="quantity" value="2" type="number"
-                        class="form-control form-control-sm" style="width: 50px;" />
-  
-                      <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
-                        onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
-                        <i class="fas fa-plus"></i>
-                      </button>
-                    </div>
+                    <p class="mb-0" style="font-weight: 400;">2</p>
                   </td>
                   <td class="align-middle">
-                    <p class="mb-0" style="font-weight: 500;">$9.99</p>
+                    <p class="mb-0" style="font-weight: 500;">$10.99</p>
                   </td>
                 </tr>
                 <tr>
                   <th scope="row" class="border-bottom-0">
                     <div class="d-flex align-items-center">
-                      <img src="https://i.imgur.com/Oj1iQUX.webp" class="img-fluid rounded-3"
-                        style="width: 120px;" alt="Book">
-                      <div class="flex-column ms-4">
-                        <p class="mb-2">Homo Deus: A Brief History of Tomorrow</p>
-                        <p class="mb-0">Yuval Noah Harari</p>
-                      </div>
+                      <img src="/images/darknails.jpg" class="img-fluid rounded-3"
+                        style="width: 120px;" alt="catholicnails">
                     </div>
                   </th>
-                  <td class="align-middle border-bottom-0">
-                    <p class="mb-0" style="font-weight: 500;">Paperback</p>
+                  <td class="align-middle">
+                    <p class="mb-0" style="font-weight: 500;">Serenity</p>
+                    <p class="mb-0" style="font-weight: 300;">Beautiful Catholic inspired nails</p>
                   </td>
-                  <td class="align-middle border-bottom-0">
-                    <div class="d-flex flex-row">
-                      <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
-                        onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
-                        <i class="fas fa-minus"></i>
-                      </button>
-  
-                      <input id="form1" min="0" name="quantity" value="1" type="number"
-                        class="form-control form-control-sm" style="width: 50px;" />
-  
-                      <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
-                        onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
-                        <i class="fas fa-plus"></i>
-                      </button>
-                    </div>
+                  <td class="align-middle">
+                    <p class="mb-0" style="font-weight: 500;">1</p>
                   </td>
                   <td class="align-middle border-bottom-0">
                     <p class="mb-0" style="font-weight: 500;">$13.50</p>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" class="border-bottom-0">
+                    <div class="d-flex align-items-center">
+                      <img src="/images/sizing.jpg" class="img-fluid rounded-3"
+                        style="width: 120px;" alt="sizingset">
+                    </div>
+                  </th>
+                  <td class="align-middle border-bottom-0">
+                    <p class="mb-0" style="font-weight: 500;">Free Nail Sizing</p>
+                    <p class="mb-0" style="font-weight: 300;">Nails to find your nail size</p>
+                  </td>
+                  <td class="align-middle">
+                    <p class="mb-0" style="font-weight: 500;">2</p>
+                  </td>
+                  <td class="align-middle border-bottom-0">
+                    <p class="mb-0" style="font-weight: 500;">$0</p>
                   </td>
                 </tr>
               </tbody>
