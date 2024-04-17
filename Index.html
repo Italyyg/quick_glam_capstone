@@ -72,6 +72,7 @@
                         <h5 class="card-title">Silver Cross</h5>
                         <p class="card-text">These are our square white nails with silver/chrome crosses.</p>
                         <button type="button" class="btn btn-danger">Add to Cart</button>
+                        <button type="button" class="btn btn-danger">View</button>
                     </div>
                 </div>
             </div>
@@ -82,6 +83,8 @@
                         <h5 class="card-title">Rocker Ballerina</h5>
                         <p class="card-text">Our mix between girly and dark mystery.</p>
                         <button type="button" class="btn btn-danger">Add to Cart</button>
+                        <button type="button" class="btn btn-danger">View</button>
+
                     </div>
                 </div>
             </div>
@@ -92,6 +95,7 @@
                         <h5 class="card-title">Black Butterfly</h5>
                         <p class="card-text">A butterly set that is finally not in pink or purple!</p>
                         <button type="button" class="btn btn-danger">Add to Cart</button>
+                        <button type="button" class="btn btn-danger">View</button>
                     </div>
                 </div>
             </div>
@@ -127,35 +131,32 @@
         </section>
         <section id="addtocarthp">
             <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Add to Cart
-            </button>
-
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
+                Add to Cart!
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Added to Cart!</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            Succesfully added to your cart!
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue
-                                shopping</button>
-                            <a href="checkout.html">
-                                <button type="button" class="btn btn-danger">Go to Cart</button>
-                            </a>
-                        </div>
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Successfully added to Cart!</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
+                    <div class="modal-body">
+                      This item is now in your cart
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Keep Shopping</button>
+                      <button type="button" class="btn btn-danger"><a href="checkout.html">Go to Cart</a></button>
+                    </div>
+                  </div>
                 </div>
-            </div>
+              </div>
 
             <!-- about section -->
             <section id="about">
                 <h2 id="aboutitle">About Quick Glam</h2>
-                <img src="images/francelittle.jpg" alt="little girl with nails" style="float:left; margin-right:10px;">
+                <img src="images/francelittle.jpg" alt="little girl with nails" class="mx-auto d-block">
                 <p>We are a press on nail company founded by France Mendoza in 2018. France was always in love with
                     coloring
                     her
@@ -184,8 +185,9 @@
             <p>Get On the List!</p>
             <p>Join to get early access to new releases, exclusive offers, discounts and more.</p>
             <div id="insertemail" class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Recipient's Email" aria-label="Recipient's username" aria-describedby="button-addon2">
-              </div>
+                <input type="text" class="form-control" placeholder="Recipient's Email"
+                    aria-label="Recipient's username" aria-describedby="button-addon2">
+            </div>
             <button type="button" class="btn btn-outline-danger">SUBMIT</button>
 
         </div>
