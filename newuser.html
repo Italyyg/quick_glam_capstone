@@ -16,7 +16,7 @@
     <nav class="navbar navbar-expand-lg bg-danger p-2 text-dark bg-opacity-50">
       <div class="container-fluid">
         <a class="navbar-brand" href="Index.html" style="max-width: 30%;">
-          <img src="images/logo.png" class="img-fluid">
+          <img src="images/logo.png" alt="logo image" class="img-fluid">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,7 +39,6 @@
                 <li><a class="dropdown-item" href="newuser.html">I'm New!</a></li>
                 <li><a class="dropdown-item" href="returning_user.html">Returning User</a></li>
               </ul>
-            </li>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="checkout.html">Checkout</a>
@@ -65,18 +64,18 @@
         all
         your favorites for you when you sign in and are ready to order.
       </p>
-      <form class="row g-3 needs-validation" validate>
+      <form class="row g-3 needs-validation">
         <div class="row g-3">
           <div class="col">
             <label for="inputfirstname4" class="form-label" style="font-family: 'DM Serif Display', serif;">First Name</label>
-            <input type="text" class="form-control" placeholder="John" aria-label="First name" required>
+            <input type="text" class="form-control" id="inputfirstname4" placeholder="John" aria-label="First name" required>
             <div class="valid-feedback">
               Looks good!
             </div>
           </div>
           <div class="col">
-            <label for="inpulastname4" class="form-label" style="font-family: 'DM Serif Display', serif;">Last Name</label>
-            <input type="text" class="form-control" placeholder="Doe" aria-label="Last name" required>
+            <label for="inputlastname4" class="form-label" style="font-family: 'DM Serif Display', serif;">Last Name</label>
+            <input type="text" class="form-control" id="inputlastname4" placeholder="Doe" aria-label="Last name" required>
           </div>
         </div>
         <div class="col-md-6">
@@ -89,7 +88,7 @@
         </div>
         <div class="col-md-12">
           <label for="inputPassword4" class="form-label" style="font-family: 'DM Serif Display', serif;">Confirm password</label>
-          <input type="password" class="form-control" id="inputPassword4" required>
+          <input type="password" class="form-control" id="inputverPassword4" required>
         </div>
         <p style="font-family: 'DM Serif Display', serif;">How did you hear about us?</p>
         <div class="form-check">

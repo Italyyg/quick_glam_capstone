@@ -20,7 +20,7 @@
         <nav class="navbar navbar-expand-lg bg-danger p-2 text-dark bg-opacity-50">
             <div class="container-fluid">
                 <a class="navbar-brand" href="Index.html" style="max-width: 30%;">
-                    <img src="images/logo.png" class="img-fluid">
+                    <img src="images/logo.png" alt="logo image" class="img-fluid">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -44,7 +44,7 @@
                                 <li><a class="dropdown-item" href="newuser.html">I'm New!</a></li>
                                 <li><a class="dropdown-item" href="returning_user.html">Returning User</a></li>
                             </ul>
-                        </li>
+
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="checkout.html">Checkout</a>
@@ -63,7 +63,6 @@
     <div id="shoplatest">
         <h3>Shop our latest!</h3>
     </div>
-    <div>
         <div class="row row-cols-1 row-cols-sm-3 row-cols-md-3 g-4">
             <div class="col">
                 <div class="card h-60 ">
@@ -102,7 +101,9 @@
         </div>
         <!-- shop all button -->
         <div id="shopallbutton">
-            <button type="button" class="btn btn-danger"><a href="nails.html">VIEW ALL PRODUCTS</a></button>
+            <a href="nails.html">
+                <button type="button" class="btn btn-danger">VIEW ALL PRODUCTS</button>
+            </a>
             <br>
 
         </div>
@@ -132,26 +133,31 @@
         <section id="addtocarthp">
             <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Add to Cart!
-              </button>
-              
-              <!-- Modal -->
-              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
                 <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel">Successfully added to Cart!</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Successfully added to Cart!</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            This item is now in your cart
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Keep
+                                Shopping</button>
+                            <a href="checkout.html">
+                                <button type="button" class="btn btn-danger">Go to
+                                    Cart</button>
+                            </a>
+                        </div>
                     </div>
-                    <div class="modal-body">
-                      This item is now in your cart
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Keep Shopping</button>
-                      <button type="button" class="btn btn-danger"><a href="checkout.html">Go to Cart</a></button>
-                    </div>
-                  </div>
                 </div>
-              </div>
+            </div>
 
             <!-- about section -->
             <section id="about">
@@ -186,7 +192,7 @@
             <p>Join to get early access to new releases, exclusive offers, discounts and more.</p>
             <div id="insertemail" class="input-group mb-3">
                 <input type="text" class="form-control" placeholder="Recipient's Email"
-                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                    aria-label="Recipient's username" aria-describedby="emailinput">
             </div>
             <button type="button" class="btn btn-outline-danger">SUBMIT</button>
 

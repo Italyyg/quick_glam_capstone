@@ -16,7 +16,7 @@
     <nav class="navbar navbar-expand-lg bg-danger p-2 text-dark bg-opacity-50">
       <div class="container-fluid">
         <a class="navbar-brand" href="Index.html" style="max-width: 30%;">
-          <img src="images/logo.png" class="img-fluid">
+          <img src="images/logo.png" alt="logo image" class="img-fluid">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +40,6 @@
                 <li><a class="dropdown-item" href="returning_user.html">Returning User</a></li>
               </ul>
             </li>
-            </li>
             <li class="nav-item">
               <a class="nav-link active" href="checkout.html">Checkout</a>
             </li>
@@ -63,7 +62,7 @@
         <div class="card-body">
           <form>
             <!-- 2 column grid layout with text inputs for the first and last names -->
-            <div class="row mb-4 needs-validation" validate>
+            <div class="row mb-4 needs-validation">
               <div class="col">
                 <div data-mdb-input-init class="form-outline">
                   <input type="text" id="form7Example1" class="form-control" required>
@@ -73,7 +72,7 @@
               </div>
               <div class="col">
                 <div data-mdb-input-init class="form-outline">
-                  <input type="text" id="form7Example2" class="form-control" required />
+                  <input type="text" id="form7Example2" class="form-control" required>
                   <label class="form-label" for="form7Example2" style="font-family: 'DM Serif Display', serif;">Last
                     name</label>
                 </div>
@@ -82,28 +81,28 @@
 
             <!-- Text input -->
             <div data-mdb-input-init class="form-outline mb-4">
-              <input type="text" id="form7Example3" class="form-control" required />
+              <input type="text" id="form7Example3" class="form-control" required>
               <label class="form-label" for="form7Example3" style="font-family: 'DM Serif Display', serif;">Company
                 name</label>
             </div>
 
             <!-- Text input -->
             <div data-mdb-input-init class="form-outline mb-4">
-              <input type="text" id="form7Example4" class="form-control" required />
+              <input type="text" id="form7Example4" class="form-control" required>
               <label class="form-label" for="form7Example4"
                 style="font-family: 'DM Serif Display', serif;">Address</label>
             </div>
 
             <!-- Email input -->
             <div data-mdb-input-init class="form-outline mb-4">
-              <input type="email" id="form7Example5" class="form-control" required />
+              <input type="email" id="form7Example5" class="form-control" required>
               <label class="form-label" for="form7Example5"
                 style="font-family: 'DM Serif Display', serif;">Email</label>
             </div>
 
             <!-- Number input -->
             <div data-mdb-input-init class="form-outline mb-4">
-              <input type="number" id="form7Example6" class="form-control" required />
+              <input type="number" id="form7Example6" class="form-control" required>
               <label class="form-label" for="form7Example6"
                 style="font-family: 'DM Serif Display', serif;">Phone</label>
             </div>
@@ -117,194 +116,194 @@
 
             <!-- Checkbox -->
             <div class="form-check d-flex justify-content-center mb-2">
-              <input class="form-check-input me-2" type="checkbox" value="" id="form7Example8" checked />
+              <input class="form-check-input me-2" type="checkbox" value="" id="form7Example8" checked >
               <label class="form-check-label" for="form7Example8">
                 Create an account?
               </label>
             </div>
-            <div class="text-center" class="col-12">
+            <div id="savebttn" class="col-12">
               <button type="submit" class="btn btn-danger">SAVE & CONTINUE</button>
             </div>
           </form>
         </div>
       </div>
     </div>
-    <!-- table for checkout -->
-    <section class="h-100 h-custom">
-      <div class="container h-100 py-5">
-        <div class="row d-flex justify-content-center align-items-center h-100">
-          <div class="col">
+  </div>
+  <!-- table for checkout -->
+  <section class="h-100 h-custom">
+    <div class="container h-100 py-5">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col">
 
-            <div class="table-responsive">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th scope="col" class="h5" style="font-family: 'DM Serif Display', serif;">Shopping Bag</th>
-                    <th scrope="col" style="font-family: 'DM Serif Display', serif;">Description</th>
-                    <th scope="col" style="font-family: 'DM Serif Display', serif;">Quantity</th>
-                    <th scope="col" style="font-family: 'DM Serif Display', serif;">Price</th>
+          <div class="table-responsive">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col" class="h5" style="font-family: 'DM Serif Display', serif;">Shopping Bag</th>
+                  <th scope="col" style="font-family: 'DM Serif Display', serif;">Description</th>
+                  <th scope="col" style="font-family: 'DM Serif Display', serif;">Quantity</th>
+                  <th scope="col" style="font-family: 'DM Serif Display', serif;">Price</th>
 
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">
-                      <div class="d-flex align-items-center">
-                        <img src="/images/pearlnails.jpg" class="img-fluid rounded-3" style="width: 120px;" alt="nails">
-                      </div>
-                    </th>
-                    <td class="align-middle">
-                      <p class="mb-0" style="font-weight: 500; font-family:Georgia, 'Times New Roman', Times, serif;" >Milky nails</p>
-                      <p class="mb-0" style="font-weight: 300;">Pearly white nails with chrome accents</p>
-                    </td>
-                    <td class="align-middle">
-                      <p class="mb-0" style="font-weight: 400;">2</p>
-                    </td>
-                    <td class="align-middle">
-                      <p class="mb-0" style="font-weight: 500;">$10.99
-                      <p style="font-weight: 300;">x2</p>
-                      </p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="border-bottom-0">
-                      <div class="d-flex align-items-center">
-                        <img src="/images/darknails.jpg" class="img-fluid rounded-3" style="width: 120px;"
-                          alt="catholicnails">
-                      </div>
-                    </th>
-                    <td class="align-middle">
-                      <p class="mb-0" style="font-weight: 500; font-family:Georgia, 'Times New Roman', Times, serif;">Serenity</p>
-                      <p class="mb-0" style="font-weight: 300;">Beautiful Catholic inspired nails</p>
-                    </td>
-                    <td class="align-middle">
-                      <p class="mb-0" style="font-weight: 500;">1</p>
-                    </td>
-                    <td class="align-middle border-bottom-0">
-                      <p class="mb-0" style="font-weight: 500;">$13.50</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="border-bottom-0">
-                      <div class="d-flex align-items-center">
-                        <img src="/images/sizing.jpg" class="img-fluid rounded-3" style="width: 120px;" alt="sizingset">
-                      </div>
-                    </th>
-                    <td class="align-middle border-bottom-0">
-                      <p class="mb-0" style="font-weight: 500; font-family:Georgia, 'Times New Roman', Times, serif;">Free Nail Sizing</p>
-                      <p class="mb-0" style="font-weight: 300;">Nails to find your nail size</p>
-                    </td>
-                    <td class="align-middle">
-                      <p class="mb-0" style="font-weight: 500;">2</p>
-                    </td>
-                    <td class="align-middle border-bottom-0">
-                      <p class="mb-0" style="font-weight: 500;">$0
-                      <p style="font-weight: 300;">x2</p>
-                      </p>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <!-- checkout payment -->
-            <div class="card shadow-2-strong mb-5 mb-lg-0" style="border-radius: 16px;">
-              <div class="card-body p-4">
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">
+                    <div class="d-flex align-items-center">
+                      <img src="/images/pearlnails.jpg" class="img-fluid rounded-3" style="width: 120px;" alt="nails">
+                    </div>
+                  </th>
+                  <td class="align-middle">
+                    <p class="mb-0" style="font-weight: 500; font-family:Georgia, 'Times New Roman', Times, serif;">
+                      Milky nails</p>
+                    <p class="mb-0" style="font-weight: 300;">Pearly white nails with chrome accents</p>
+                  </td>
+                  <td class="align-middle">
+                    <p class="mb-0" style="font-weight: 400;">2</p>
+                  </td>
+                  <td class="align-middle">
+                    <p class="mb-0" style="font-weight: 500;">$10.99
+                    <p style="font-weight: 300;">x2</p>
 
-                <div class="row">
-                  <div class="col-md-6 col-lg-4 col-xl-3 mb-4 mb-md-0">
-                    <form>
-                      <div class="d-flex flex-row pb-3">
-                        <div class="d-flex align-items-center pe-2">
-                          <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1v" value=""
-                            aria-label="..." checked />
-                        </div>
-                        <div class="rounded border w-100 p-3">
-                          <p class="d-flex align-items-center mb-0">
-                            <i class="fab fa-cc-mastercard fa-2x text-dark pe-2"></i>Credit
-                            Card
-                          </p>
-                        </div>
-                      </div>
-                      <div class="d-flex flex-row pb-3">
-                        <div class="d-flex align-items-center pe-2">
-                          <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel2v" value=""
-                            aria-label="..." />
-                        </div>
-                        <div class="rounded border w-100 p-3">
-                          <p class="d-flex align-items-center mb-0">
-                            <i class="fab fa-cc-visa fa-2x fa-lg text-dark pe-2"></i>Debit Card
-                          </p>
-                        </div>
-                      </div>
-                      <div class="d-flex flex-row">
-                        <div class="d-flex align-items-center pe-2">
-                          <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel3v" value=""
-                            aria-label="..." />
-                        </div>
-                        <div class="rounded border w-100 p-3">
-                          <p class="d-flex align-items-center mb-0">
-                            <i class="fab fa-cc-paypal fa-2x fa-lg text-dark pe-2"></i>AfterPay
-                          </p>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                  <div class="col-md-6 col-lg-4 col-xl-6">
-                    <div class="row">
-                      <div class="col-12 col-xl-6">
-                        <div data-mdb-input-init class="form-outline mb-4 mb-xl-5">
-                          <input type="text" id="typeName" class="form-control form-control-lg" siez="17"
-                            placeholder="John Doe" />
-                          <label class="form-label" for="typeName">Name on card</label>
-                        </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" class="border-bottom-0">
+                    <div class="d-flex align-items-center">
+                      <img src="/images/darknails.jpg" class="img-fluid rounded-3" style="width: 120px;"
+                        alt="catholicnails">
+                    </div>
+                  </th>
+                  <td class="align-middle">
+                    <p class="mb-0" style="font-weight: 500; font-family:Georgia, 'Times New Roman', Times, serif;">
+                      Serenity</p>
+                    <p class="mb-0" style="font-weight: 300;">Beautiful Catholic inspired nails</p>
+                  </td>
+                  <td class="align-middle">
+                    <p class="mb-0" style="font-weight: 500;">1</p>
+                  </td>
+                  <td class="align-middle border-bottom-0">
+                    <p class="mb-0" style="font-weight: 500;">$13.50</p>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" class="border-bottom-0">
+                    <div class="d-flex align-items-center">
+                      <img src="/images/sizing.jpg" class="img-fluid rounded-3" style="width: 120px;" alt="sizingset">
+                    </div>
+                  </th>
+                  <td class="align-middle border-bottom-0">
+                    <p class="mb-0" style="font-weight: 500; font-family:Georgia, 'Times New Roman', Times, serif;">Free
+                      Nail Sizing</p>
+                    <p class="mb-0" style="font-weight: 300;">Nails to find your nail size</p>
+                  </td>
+                  <td class="align-middle">
+                    <p class="mb-0" style="font-weight: 500;">2</p>
+                  </td>
+                  <td class="align-middle border-bottom-0">
+                    <p class="mb-0" style="font-weight: 500;">$0
+                    <p style="font-weight: 300;">x2</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- checkout payment -->
+          <div class="card shadow-2-strong mb-5 mb-lg-0" style="border-radius: 16px;">
+            <div class="card-body p-4">
 
-                        <div data-mdb-input-init class="form-outline mb-4 mb-xl-5">
-                          <input type="text" id="typeExp" class="form-control form-control-lg" placeholder="MM/YY"
-                            size="7" id="exp" minlength="7" maxlength="7" />
-                          <label class="form-label" for="typeExp">Expiration</label>
-                        </div>
+              <div class="row">
+                <div class="col-md-6 col-lg-4 col-xl-3 mb-4 mb-md-0">
+                  <form>
+                    <div class="d-flex flex-row pb-3">
+                      <div class="d-flex align-items-center pe-2">
+                        <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1v" value=""
+                          aria-label="..." checked>
                       </div>
-                      <div class="col-12 col-xl-6">
-                        <div data-mdb-input-init class="form-outline mb-4 mb-xl-5">
-                          <input type="text" id="typeText" class="form-control form-control-lg" siez="17"
-                            placeholder="1111 2222 3333 4444" minlength="19" maxlength="19" />
-                          <label class="form-label" for="typeText">Card Number</label>
-                        </div>
+                      <div class="rounded border w-100 p-3">
+                        <p class="d-flex align-items-center mb-0">
+                          <i class="fab fa-cc-mastercard fa-2x text-dark pe-2"></i>Credit
+                          Card
+                        </p>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-row pb-3">
+                      <div class="d-flex align-items-center pe-2">
+                        <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel2v" value=""
+                          aria-label="...">
+                      </div>
+                      <div class="rounded border w-100 p-3">
+                        <p class="d-flex align-items-center mb-0">
+                          <i class="fab fa-cc-visa fa-2x fa-lg text-dark pe-2"></i>Debit Card
+                        </p>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-row">
+                      <div class="d-flex align-items-center pe-2">
+                        <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel3v" value=""
+                          aria-label="...">
+                      </div>
+                      <div class="rounded border w-100 p-3">
+                        <p class="d-flex align-items-center mb-0">
+                          <i class="fab fa-cc-paypal fa-2x fa-lg text-dark pe-2"></i>AfterPay
+                        </p>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-6">
+                  <div class="row">
+                    <div class="col-12 col-xl-6">
+                      <div data-mdb-input-init class="form-outline mb-4 mb-xl-5">
+                        <input type="text" id="typeName" class="form-control form-control-lg" size="17"
+                          placeholder="John Doe">
+                        <label class="form-label" for="typeName">Name on card</label>
+                      </div>
 
-                        <div data-mdb-input-init class="form-outline mb-4 mb-xl-5">
-                          <input type="password" id="typeText" class="form-control form-control-lg"
-                            placeholder="&#9679;&#9679;&#9679;" size="1" minlength="3" maxlength="3" />
-                          <label class="form-label" for="typeText">Cvv</label>
-                        </div>
+                      <div data-mdb-input-init class="form-outline mb-4 mb-xl-5">
+                        <input type="text" id="typeExp" class="form-control form-control-lg" placeholder="MM/YY"
+                          size="7"  minlength="7" maxlength="7">
+                        <label class="form-label" for="typeExp">Expiration</label>
+                      </div>
+                    </div>
+                    <div class="col-12 col-xl-6">
+                      <div data-mdb-input-init class="form-outline mb-4 mb-xl-5">
+                        <input type="text" id="typeText" class="form-control form-control-lg" size="17"
+                          placeholder="1111 2222 3333 4444" minlength="19" maxlength="19">
+                        <label class="form-label" for="typeText">Card Number</label>
+                      </div>
+
+                      <div data-mdb-input-init class="form-outline mb-4 mb-xl-5">
+                        <input type="password" id="typeTexts" class="form-control form-control-lg"
+                          placeholder="&#9679;&#9679;&#9679;" size="1" minlength="3" maxlength="3">
+                        <label class="form-label" for="typeText">Cvv</label>
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-4 col-xl-3">
-                    <div class="d-flex justify-content-between" style="font-weight: 500;">
-                      <p class="mb-2">Subtotal</p>
-                      <p class="mb-2">$23.49</p>
-                    </div>
+                </div>
+                <div class="col-lg-4 col-xl-3">
+                  <div class="d-flex justify-content-between" style="font-weight: 500;">
+                    <p class="mb-2">Subtotal</p>
+                    <p class="mb-2">$23.49</p>
+                  </div>
 
-                    <div class="d-flex justify-content-between" style="font-weight: 500;">
-                      <p class="mb-0">Shipping</p>
-                      <p class="mb-0">$3.99</p>
-                    </div>
+                  <div class="d-flex justify-content-between" style="font-weight: 500;">
+                    <p class="mb-0">Shipping</p>
+                    <p class="mb-0">$3.99</p>
+                  </div>
 
-                    <hr class="my-4">
+                  <hr class="my-4">
 
-                    <div class="d-flex justify-content-between mb-4" style="font-weight: 500;">
-                      <p class="mb-2">Total (tax included)</p>
-                      <p class="mb-2">$39.47</p>
-                    </div>
-
+                  <div class="d-flex justify-content-between mb-4" style="font-weight: 500;">
+                    <p class="mb-2">Total (tax included)</p>
+                    <p class="mb-2">$39.47</p>
+                  </div>
+                  <div class="d-flex justify-content-between">
                     <button type="button" data-mdb-button-init data-mdb-ripple-init
                       class="btn btn-danger btn-block btn-lg">
-                      <div class="d-flex justify-content-between">
-                        <span>Checkout</span>
-                        <span>$39.47</span>
-                      </div>
+                      <span>Checkout</span>
+                      <span>$39.47</span>
                     </button>
-
                   </div>
                 </div>
 
@@ -313,14 +312,17 @@
 
           </div>
         </div>
+
       </div>
-    </section>
+    </div>
+    
+  </section>
 
 
-    <!-- Including bootstrap javascript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"></script>
+  <!-- Including bootstrap javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
