@@ -1,22 +1,24 @@
 # quick_glam_capstone
-<!-- describe project -->
-<!-- describe/show intresting piece of html/css -->
-<!-- pictures of each webpage -->
+
 ### About QuickGlam
 
-QuickGlam is a mock e-commerce website that specializes in selling press on acrylic nails. It is meant to give a feel of a real working website with working links and input forms. The theme that I chose for the website was pink, I wanted to give it a rock princess feel. The website is consisted of HTML/CSS/Bootstrap usage to make it run. Some of the challenges I faced are image sizing and hoping to incorporate a bigger knowledge of bootstrap to make it easier. The pages the website include are: 
+QuickGlam is a mock e-commerce website that specializes in selling press on acrylic nails. It is meant to give a feel of a real working website with working links and input forms. The theme that I chose for the website was pink, I wanted to give it a rock princess feel. The website is consisted of HTML/CSS/Bootstrap usage to make it run. Some of the challenges I faced are image sizing and hoping to incorporate a bigger knowledge of bootstrap to make it easier. The pages the website include are:
 
-    +  Home page
-    +  Product page
-    +  New User Registration
-    +  Returning User Login
-    +  Checkout
+* Home Page 
+* Product Page
+* New User Page
+* Returning User Page
+* Checkout page
 
-    ![homepage]()
-    ![prodcutpage]()
-    ![newuserpage]()
-    ![returninguserpage]()
-    ![checkoutpage]()
+
+
+    
+
+ ![homepage](/images/homescreenshot.PNG)
+   ![prodcutpage](/images/productpage.PNG)
+    ![newuserpage](/images/newuserpage.PNG)
+    ![returninguserpage](/images/returninguserpage.PNG)
+    ![checkoutpage](/images/checkoutpage.PNG)
 
  #### A intresting piece of code
 While making the website I had a lot of help when implementing code. While I had outside sources to help me, I made sure to understand it as well as make it my own. A piece of code that I was happy to make mine was in the "newuser.html". In this piece I used different input forms to make it my own as well as learned where to add "needs-validation" and where to add "required" to have it be responsive, if left empty. 
