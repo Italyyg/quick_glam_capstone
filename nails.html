@@ -58,7 +58,7 @@
   </div>
   <!-- fake navigation -->
   <div id="fakenav">
-    <p><a href="Index.html">Home</a>/Nails/New Releases</p>
+    <p><a href="Index.html">Home</a>/Nails/Shop All</p>
   </div>
   <div>
     <h3></h3>
@@ -75,7 +75,29 @@
             <h5 class="card-title">Fairy Set</h5>
             <p class="card-text">Spring edition nails that we brought back due to high demand as a forever item. Great
               for festivals are everyday looks. </p>
-            <button type="button" class="btn btn-danger">Add to Cart</button>
+            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Add to Cart
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Successfully added to Cart!</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    This item is now in your cart
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Keep Shopping</button>
+                    <button type="button" class="btn btn-danger"><a href="checkout.html">Go to Cart</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
